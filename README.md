@@ -6,6 +6,9 @@ You can see that each component is loaded separately (chunk by chunk)
 
 ![Blog Image](https://user-images.githubusercontent.com/25843631/76139959-c9bde580-607f-11ea-9b7e-cc802bbff748.PNG)
 
+## App.js
+
+
 ## Available Scripts
 
 In the project directory, you can run:
