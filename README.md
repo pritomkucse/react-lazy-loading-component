@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-###Application Output:
+## Application in Browser
 
 ![Blog Image](https://user-images.githubusercontent.com/25843631/76139959-c9bde580-607f-11ea-9b7e-cc802bbff748.PNG)
 
