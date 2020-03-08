@@ -1,43 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Application in Browser
-
-You can see that each component is loaded separately (chunk by chunk)
-
-![Blog Image](https://user-images.githubusercontent.com/25843631/76139959-c9bde580-607f-11ea-9b7e-cc802bbff748.PNG)
-
-## Sample App.js
-```jsx
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import React, {Suspense, lazy} from 'react';
-import './App.css';
-
-import Header from './Header';
-
-const Home = lazy(() => import('./Home'));
-const AnotherHome = lazy(() => import('./AnotherHome'));
-
-function App() {
-    return (
-        <div>
-            <Router>
-                <Header/>
-                <div className="container">
-                    <Suspense fallback={<div>Loading...</div>}>
-                        <Switch>
-                            <Route exact path="/" component={Home}/>
-                            <Route exact path="/another-home" component={AnotherHome}/>
-                        </Switch>
-                    </Suspense>
-                </div>
-            </Router>
-        </div>
-    );
-}
-
-export default App;
-```
-
 ## Available Scripts
 
 In the project directory, you can run:
