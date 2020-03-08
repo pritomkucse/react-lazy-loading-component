@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-lazy-loading-component"]=this["webpackJsonpreact-lazy-loading-component"]||[]).push([[4],{35:function(t,e,n){"use strict";n.r(e);var a=n(12),c=n(13),o=n(15),r=n(14),i=n(16),u=n(0),l=n.n(u),s=function(t){function e(){return Object(a.a)(this,e),Object(o.a)(this,Object(r.a)(e).call(this))}return Object(i.a)(e,t),Object(c.a)(e,[{key:"render",value:function(){return l.a.createElement("div",null,"HOME")}}]),e}(u.Component);e.default=s}}]);
+//# sourceMappingURL=4.20ae8e56.chunk.js.map
