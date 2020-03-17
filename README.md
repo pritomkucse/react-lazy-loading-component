@@ -6,6 +6,10 @@ You can see that each component is loaded separately (chunk by chunk)
 
 ![Blog Image](https://user-images.githubusercontent.com/25843631/76139959-c9bde580-607f-11ea-9b7e-cc802bbff748.PNG)
 
+[codesandbox.io Live Example](https://codesandbox.io/s/lazy-loading-react-components-with-reactlazy-and-suspense-2hx75)
+
+![Blog Image](https://user-images.githubusercontent.com/25843631/76830134-d21bda80-684e-11ea-8941-76dd715512ce.PNG)
+
 ## Sample App.js
 ```jsx
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
