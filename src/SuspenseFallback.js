@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 
-class Home extends Component {
+class SuspenseFallback extends Component {
     constructor() {
         super();
+
+        console.log("SuspenseFallback");
     }
 
     render() {
@@ -10,4 +12,4 @@ class Home extends Component {
     }
 }
 
-export default Home;
+export default SuspenseFallback;
